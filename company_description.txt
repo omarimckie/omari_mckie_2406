@@ -1,18 +1,43 @@
 A sneaker store that carries inventory you are looking for but will also pair clients up with rare/any sneakers that they are looking for.
 
-What's the company's name? Kicks Universal
-How many locations do they have? 6 locations, (NYC, Atlanta, Chicago, LA, Tokyo, London)
+What's the company's name? 
+
+Kicks Universal
+
+How many locations do they have? 
+
+6 locations, (NYC, Atlanta, Chicago, LA, Tokyo, London)
+
 How many employees? 
+
+26 employees
+- 4 per locations (1 register, 2 floor ppl, 2 backroom ppl)
+- 2 to maintain database and do research
+
 What do they sell or how do they generate revenue? Give an estimate of their gross annual revenue using logic similar to that used
 by the Drake Equation that we discussed in class. 
-Every company has some notion of a transaction, i.e. some
-set of operations that constitute the accomplishment of an objective or task. Examples of such transactions that
-drive a company's business operations are the sale of a retail item, an event ticket sale, a trouble ticket for
-technical support, a service of some kind like a trip by taxi or a lesson, a book loan, etc. This notion of
-transaction will permeate your design project, so clarify how it applies to your company. 
+
+- regular sneakers
+- customized sneakers
+- find rare sneakers (finders fee on top of cost of shoes)
+ 
 
 What are the transactions that drive your company's operations? 
+
+- mainly selling sneakers
+
 How many of each type occurs per day? 
+
+- per location 40 sneakers/day x 6 = 240 sneakers
+
 What data archiving and throughput requirements characterize your company? 
+
+
+
 Identify who the clients are of your company's business? 
+
+- anyone that wants to buy sneakers
+
 Who are your company's suppliers?
+
+- manufacturers (Nike, Addidas, Reebok, Puma, etc)
