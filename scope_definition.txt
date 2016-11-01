@@ -1,5 +1,30 @@
 14. What information system is being proposed to be designed?
+
+- Transaction Processing System (TPS)  
+- Communication and Collaboration System (CCS)
+
+
 15. Describe why the company needs it and why the company would be better off after it is in place.
+
+- We will have a combination of a Transaction Processing System (TPS) and a Communication and Collaboration System (CCS). TPS because it captures and
+processes data about business transactions such as the selling of the sneakers as well as the customization options. CCS because there will have to be
+communication to achieve the level of collaboration needed to customize shoes as well as pair ppls rare shoes that they are looking to sell with those 
+collectors that are looking to buy.
+
 16. Provide an estimate of how long it will take to design, implement, and install it.
+
+- Estimate to design should take maybe a month. 
+	- need a logo
+	- need to design the website
+- To implement and install should take another month
+	- need to incorporate POS system that ties the inventory in stock to our databases
+	- need to train employees to use the system
+
+
 17. Provide an estimate of how much will the system design, implementation, and installation cost?
+
+- $3000 to make custom website
+- 
+
+
 18. Provide an estimate of how many people will be needed to carry out everything?

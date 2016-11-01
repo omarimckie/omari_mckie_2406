@@ -23,14 +23,31 @@ Kicks Universal
 
 5. What do they sell or how do they generate revenue?
 
-- regular sneakers
-- customized sneakers
-- find rare sneakers (finders fee on top of cost of shoes)
+- sell regular sneakers
+- sell customized sneakers
+- find rare sneakers (finders fee on top of cost of shoes) - finders fee is probably similar to cosignment
  
 
 6. Give an estimate of their gross annual revenue.
 
 - there is about on average a 45% markup on sneakers. 
+- 240 regular sneakers sold per day ~ $100 per sneaker = $24k in regular sneaker sales/day * 55% actual revenue = $13,200/day for all locations
+- believe that 10% of our sneaker sales will be custom sneakers, which would mean that ~ 26.666 would be custom, which we will round to 27
+	- will have 2 tiers of customization, 
+		- 1st tier - change color scheme - additional $70 on top of shoe. 
+		- 2nd tier - change color scheme with any additional graphics/patterns - additional $140 on top of shoe 
+	- 27 custom sneakers sold per day ~ $100 per sneaker = $2,700 * 55% actual revenue = $1,485 of base shoe
+					- ~ $105 customization =  $2,835 customization revenue + $1,485 = $4,320 profit on shoe for all locations
+- pair seekers for rare shoes with sellers, will charge a 20% consignment/finders fee
+	- 10 sneakers/day * ~ $400/sneaker = $4,000 * 20% = $800
+
+- 4 low level employees * $2000/month = $8000/month * 12 months = $96,000/yr
+- 2 ppl to maintain database * $5,500/month = $11,000/month * 12 months = $132,000/yr
+- rent for properties ~ $3000/month * 12 months * 6 locations = $216,000/yr
+
+- add up revenue streams = $13,200 + $4,320 + $800 = $18,320/day * 365 days/yr = $6,686,800/yr
+- minus the liabilities = $96,000/yr + $132,000/yr + $216,000/yr = 		 $444,000/yr
+										 $6,242,800 GROSS PROFIT
 
 
 7. Every company has some notion of a transaction, i.e. some set of operations that constitute the
@@ -40,7 +57,15 @@ support, a service of some kind like a trip by taxi or a lesson, a book loan, et
 permeate your design project, so clarify how it applies to your company. What are the information system
 transactions that drive your company's operations? 
 
-- mainly selling sneakers
+- selling sneakers
+- customization of sneakers
+- finders fee to sell shoes to ppl looking for rare shoes
+
+- We will have a combination of a Transaction Processing System (TPS) and a Communication and Collaboration System (CCS). TPS because it captures and
+processes data about business transactions such as the selling of the sneakers as well as the customization options. CCS because there will have to be
+communication to achieve the level of collaboration needed to customize shoes as well as pair ppls rare shoes that they are looking to sell with those 
+collectors that are looking to buy. 
+
 
 
 8. How many of each type of transaction occurs per day?
@@ -48,17 +73,30 @@ transactions that drive your company's operations?
 - per location 40 sneakers/day x 6 = 240 sneakers
 
 
+
 9. Provide the logic behind your estimate of the number of transactions.
 
+10% of our sneaker sales will be custom sneakers, 
+- pair seekers for rare shoes with sellers, will charge a 20% consignment/finders fee
+	- 10 sneakers/day 
+  
+- the way that 240 was estimated was that 
+	- 6 stores worldwide so thats 40 per store
+	- our store will be open 10 hrs/day 10am - 8 pm.
+	- 40 per store at 10/hrs per day is 4/hr
 
 
 10. What is the throughput of your system in bytes per second?
 
+- we will be using Vector graphics most likely for the website. we need high fidelity on the images of these sneakers that we are selling, especially
+when it comes to the customizations and the resale of others shoes. 
+- there will be multiple high pixel count images on a page at a time. 
+- estimate that we will need 1024 x 960 images @ 5 bytes per pixel ~ 3MB / sec
 
 
 11. Provide the logic behind your estimate of throughput.
 
-
+- estimate that we will need 1024 x 960 images @ 5 bytes per pixel ~ 3MB / sec
 
 12. A client is someone who seeks your company's services. You are in business to serve your clients. Identify
 who the clients are of your company's business?
