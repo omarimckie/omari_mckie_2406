@@ -24,7 +24,11 @@ collectors that are looking to buy.
 17. Provide an estimate of how much will the system design, implementation, and installation cost?
 
 - $3000 to make custom website
-- 
+- $3000 for a POS system
+- $10000 to hire the ppl to train the staff and to install
 
 
 18. Provide an estimate of how many people will be needed to carry out everything?
+
+- 1-2 system designers
+- 2 to train and install system
