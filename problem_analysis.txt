@@ -1,6 +1,18 @@
 19. Envision the way the company does business now, i.e. before this system is in place. With respect to this
 preexisting situation, list at least five problems with the current state of affairs that would be solved or improved
 by the proposed system.
+
+- Customers cant customize orders online
+- We cant match customers that want to sell their sneakers to ones that want to buy them
+- We can only reach customers that physically come into the store
+- Our databases between our 6 locations arent linked
+- Dont have a loyalty program that allows us to keep our customers 
+
 20. For each problem, provide a system improvement objective that would be accomplished and that would be
 measurable in some objective way. Refer to our text for discussion of what good examples of system
 improvement objectives are
+
+- Increase synergy by tying our databases for all locations
+- create website tools that allow our users to customize sneakers online to improve custom sales 
+- tie users name with user id to track orders and offer loyalty programs so that we can increase user retention
+- create website and advertise on social media to increase user base

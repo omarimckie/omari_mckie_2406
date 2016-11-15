@@ -1,7 +1,31 @@
 21. Describe between two and four functional requirements that will fulfill the needs of clients.
+
+- implement a chat feature for the website in case customers have any questions
+- have yearly training on different customer service strategies
+- partner with different shipping companies to offer the best options to fulfill orders
+- maintain SOPs for common functions so that employees have a reference when senior employee is not available
+
 22. Describe between two and four functional requirements that will fulfill the needs of suppliers.
+
+- update billing addresses of clients
+- keep the inventory updated dynamically so that the onhand is always correct
+- using dynamically updated inventory, order product when needed to maintain appropriate levels
+
 23. Describe between two and four functional requirements that will help someone administer the proposed
 information system.
+
+- maintain databases in safe space
+- document the design, layout, and features wanted implemented
+- The web application shall be able to produce weekly, monthly and yearly reports about sales
+- The web application shall produce a receipt detailing a customers’ purchase information and include name of customer, 
+  items purchased, cost of each item and total cost
+
 24. Describe between two and four functional requirements that will help analyze the quality of the company’s
 operations and inform strategic decisions.
+
+- so yearly audits of our internal controls
+- have periodic brainstorming sessions with key employees to spur ideas for improvements
+- analyze reports monthly 
+
+
 (NB: a minimum of twelve total functional requirements must be specified.)
