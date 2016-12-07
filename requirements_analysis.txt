@@ -1,20 +1,22 @@
 21. Describe between two and four functional requirements that will fulfill the needs of clients.
 
-- implement a chat feature for the website in case customers have any questions
-- have yearly training on different customer service strategies
-- partner with different shipping companies to offer the best options to fulfill orders
-- maintain SOPs for common functions so that employees have a reference when senior employee is not available
+:-/ implement a help feature (chat, email) when case customer has a question/issue (input boolean if user has a problem, return options)
+:-) request yearly training appointment for customer service strategies (input is date, return appointment)
+- ask user to choose how many days required for shipping (input days, return days_shipped) {:-( partner with different shipping companies to offer the best options to fulfill orders}
+- update SOPs for common functions so that employees have a reference when senior employee is not available (input sop_id, )
+- place order (input prod_id, quantity, price, return order_id)
+- bill user's card (input order_id, order_amt, return )
 
 22. Describe between two and four functional requirements that will fulfill the needs of suppliers.
 
-- update billing addresses of clients
-- keep the inventory updated dynamically so that the onhand is always correct
+:-) update the billing address of a client (input billing address, return status updated)
+- keep the inventory updated dynamically so that the onhand is always correct 
 - using dynamically updated inventory, order product when needed to maintain appropriate levels
 
 23. Describe between two and four functional requirements that will help someone administer the proposed
 information system.
 
-- maintain databases in safe space
+:-( maintain databases in safe space
 - document the design, layout, and features wanted implemented
 - The web application shall be able to produce weekly, monthly and yearly reports about sales
 - The web application shall produce a receipt detailing a customers’ purchase information and include name of customer, 
@@ -23,9 +25,10 @@ information system.
 24. Describe between two and four functional requirements that will help analyze the quality of the company’s
 operations and inform strategic decisions.
 
-- so yearly audits of our internal controls
+- do yearly audits of our internal controls 
 - have periodic brainstorming sessions with key employees to spur ideas for improvements
 - analyze reports monthly 
+- provide year's sales (
 
 
 (NB: a minimum of twelve total functional requirements must be specified.)
