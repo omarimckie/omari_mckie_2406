@@ -1,2 +1,14 @@
 37. Provided a complete description of how the finished product is meant to be used in terms of its functional
 requirements.
+
+- our product is meant to be a business that has a website that is an extension of our physical locations. The way that it will be used is similar to
+  our physical store in the fact that you will have the full selection of our sneakers to buy. That is really where the comparisons end. With our online 
+  presence, you will be able to set up a profile that you will be able to manage from your personal computer. There is where you will be able to track 
+  orders as well as see past orders. Along with that, you will be able to pick any of the active sneakers and customize it on the fly. We will have 
+  many tools available so that customers will be able to customize the sneaker to whatever they like. Lastly on the client-side, the customer will be able
+  to view an active database of sneakers that collectors/opportunist are trying to sell. On our side of the application, we will dynamically track inventory
+  to maintain an appropriate level. When the level dips below a certain amount, we will have a system that is able to automatically order more inventory.
+  We will have a chat feature that will allow us to alleviate our customers concerns as far as orders, website glitches, or anything else that may be 
+  troubling them. Lastly, we will be able to print out Financial Statements, Sales Reports and any other type of report that would help the owners make
+  decisions for the business going forwards.
+
