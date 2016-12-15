@@ -1,2 +1,25 @@
 36. Describe at least ten ways of testing the various functional requirements that the system provides. This
 follows from our discussion of test driven development (TDD).
+
+request yearly training appointment for customer service strategies (input is date, return appointment)
+- test by inputting a date into the system and putting an expected status back of yes or no as far as if the appointment is available.
+- if there is conflict with days, does the system give you an error message?
+- how far in advance can the system book an appointment?, stress test it for max time in the future
+- how soon can you book an appointment? stress test it for a min time 
+
+
+update the billing address of a client (input billing address, return status updated) 
+- can the address fields handle an address from any country?
+- if so, what are the extra fields needed for countries that maybe dont follow the same address, city, country, zip
+- was address, city, country, etc. input correctly
+- should we limit the characters that can be inputted into each field to make sure that we receive good data
+
+
+place order (input prod_id, quantity, price, return order_id)
+- is the order added to the user's account
+- does the system automatically send them a receipt
+- if there is a problem with not having an item, is the customer alerted to this and not charged for that item?
+- does each order have a unique order ID?
+- is the address correct before confirming the order?
+
+
